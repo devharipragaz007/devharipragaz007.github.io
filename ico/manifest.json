@@ -1,5 +1,5 @@
 {
- "name": "Hariprakash Babu",
+ "name": "App",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,10 +37,5 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ],
-  "lang": "en-US",
-  "start_url": "../index.html",
-  "display": "standalone",
-  "background_color": "white",
-  "theme_color": "white"
+ ]
 }
