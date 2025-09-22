@@ -1,21 +1,59 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" alt="Portfolio Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Hariprakash Babu – Portfolio
 
-This contains everything you need to run your app locally.
+Welcome to my portfolio repository!  
+This repo contains the source code and setup instructions for my personal portfolio site, where I showcase my work, projects, and experience as a **Full Stack & Cloud Engineer**.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1L0PN-6McbyXQRD3mJ95M2mMBhlE_DQqK
+🔗 **Live Portfolio**: [View Here](https://devharipragaz007.github.io/)  
+🔗 **LinkedIn**: [linkedin.com/in/haripragaz](https://www.linkedin.com/in/haripragaz/)
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 About Me
 
+I’m a **Lead Software Engineer** with 6+ years of experience building scalable web applications, designing cloud-native systems, and leading engineering teams.  
+I specialize in **JavaScript/TypeScript, React, Node.js, AWS, and Microservices**, with hands-on expertise in modern front-end frameworks and backend systems.  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# hariprakash-portfolio
+I enjoy solving complex problems, optimizing systems for performance and scalability, and experimenting with emerging AI-driven solutions.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Next.js, Redux, Angular, Vue.js, TypeScript, JavaScript  
+- **Backend**: Node.js, Express.js, Python (Flask), Java Spring Boot, PHP (CodeIgniter)  
+- **Databases**: PostgreSQL, MySQL, MongoDB, AWS DynamoDB, SQL Server  
+- **Cloud & DevOps**: AWS (Lambda, S3, DynamoDB, Connect, QuickSight), Terraform, Docker, Kubernetes  
+- **Other**: Microservices, REST APIs, Unit Testing (Jest, RTL, Jasmine), Agile/Scrum  
+
+---
+
+## 📂 Projects
+
+Here are some featured projects (more on my [portfolio site](https://devharipragaz007.github.io/)):
+
+- **Petco – Amazon Connect Optimization**  
+  Built & optimized 50+ Amazon Connect flows with AWS Lambda, DynamoDB, S3, and QuickSight, reducing call handling time by 20%.  
+
+- **Custom CCP for Amazon Connect**  
+  Designed and implemented a custom Contact Control Panel in Angular, improving agent productivity by 25%.  
+
+- **DataTwin Platforms (TCS & OneIntegral)**  
+  Developed large-scale reconciliation & performance platforms using React, Node.js, AWS services, and Terraform, improving automation and scalability.  
+
+- **ERP & Automation Systems (Global Software Solutions)**  
+  Delivered ERP and automation solutions with AngularJS, PHP, and MySQL, improving efficiency by 30%.  
+
+---
+
+## 🖥️ Run Locally
+
+**Prerequisites:** Node.js  
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/<your-username>/hariprakash-portfolio.git
+   cd hariprakash-portfolio
