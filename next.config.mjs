@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export", // <-- crucial for GitHub Pages
-  images: { unoptimized: true }, // Next/Image without optimization server
-  trailingSlash: true, // helps avoid some index.html issues
+const isProd = process.env.NODE_ENV === 'production';
+
+module.exports = {
+  output: 'export',          // required for GitHub Pages
+  images: { unoptimized: true }, // avoids Image Optimization server
+  trailingSlash: true,       // makes static routes work on Pages
+  basePath: '',              // keep empty for user/org pages
+  assetPrefix: isProd ? '' : '',
 };
-export default nextConfig;
