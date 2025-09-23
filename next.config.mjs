@@ -1,10 +1,11 @@
+// next.config.mjs
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
-module.exports = {
-  output: 'export',          // required for GitHub Pages
-  images: { unoptimized: true }, // avoids Image Optimization server
-  trailingSlash: true,       // makes static routes work on Pages
-  basePath: '',              // keep empty for user/org pages
-  assetPrefix: isProd ? '' : '',
+const nextConfig = {
+  output: 'export',           // for GitHub Pages/static hosting
+  images: { unoptimized: true },
+  trailingSlash: true,
+  basePath: '',               // user site: leave empty
+  assetPrefix: ''
 };
+
+export default nextConfig;
