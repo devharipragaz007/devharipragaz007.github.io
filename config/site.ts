@@ -1,8 +1,9 @@
 export const siteConfig = {
   name: "Hariprakash Babu",
-  role: "Entrepreneurial Full-Stack Engineer",
-  tagline: "I build AI-powered, cloud-native products with founders.",
-  shortBio: "Entrepreneurial full-stack engineer with 6+ years of experience building AI-powered, cloud-native SaaS. I collaborate with founders to turn ideas into MVPs and scalable businesses.",
+  role: "Senior Full Stack Engineer | AI & AWS Serverless | Founding Engineer",
+  tagline: "I build production AI systems and ship products that pay.",
+  shortBio:
+    "Senior Full Stack Engineer with 8+ years building scalable SaaS across JavaScript and TypeScript ecosystems. Owns production AWS serverless architecture at Petco supporting a ~$6B revenue business. Integrated Claude LLM via AWS Bedrock into IVR and chat systems at enterprise scale. Shipped three independent revenue-generating products as a founder. Available US timezones. Open to US relocation.",
   location: "Zapopan, Guadalajara, Mexico",
   profileImageSrc: "/images/hariprakash.jpg",
   contact: {
@@ -11,7 +12,7 @@ export const siteConfig = {
   },
   socials: {
     linkedin: "https://www.linkedin.com/in/haripragaz/",
-    github: "https://github.com/devharipragaz007", // Corrected to a typical GitHub profile URL
+    github: "https://github.com/devharipragaz007",
   },
 };
 
