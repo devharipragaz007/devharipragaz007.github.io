@@ -24,24 +24,24 @@ export const skillsData: SkillCategory[] = [
     icon: Rocket,
     skills: [
       {
-        name: "MVPs",
+        name: "Founding Engineer",
         description:
-          "Rapidly building and iterating on minimum viable products to test market assumptions.",
+          "4x founding engineer experience across OneIntegral, Fitte, Zetio, and PodOS. Built from zero to paying customers with full ownership.",
       },
       {
-        name: "Problem Discovery",
+        name: "Zero to Revenue",
         description:
-          "Identifying and validating customer pain points to ensure we're building what matters.",
+          "Shipped three independent revenue-generating products while employed full-time. 10+ paying gyms on Fitte, 5 paying instructors on Zetio, 5 paying users on PodOS.",
       },
       {
         name: "Founder Collaboration",
         description:
-          "Working closely with founders as a technical partner to translate vision into reality.",
+          "Worked directly with founders as employee #3 at OneIntegral, translating ambiguous requirements into production financial automation platforms.",
       },
       {
-        name: "GTM-Aware Roadmaps",
+        name: "Product Ownership",
         description:
-          "Creating technical roadmaps that align with go-to-market strategies and business goals.",
+          "Manages full product lifecycle across all three products: system design, feature prioritization, customer feedback loops, and deployment strategy.",
       },
     ],
   },
@@ -52,26 +52,27 @@ export const skillsData: SkillCategory[] = [
       {
         name: "React & Next.js",
         description:
-          "Building modern, performant, and SEO-friendly web applications.",
+          "Building modern, performant web applications across SaaS products and enterprise platforms including USAA banking and Petco contact center.",
       },
       {
-        name: "TypeScript",
-        description: "Ensuring type safety and scalability in large codebases.",
+        name: "TypeScript & JavaScript",
+        description:
+          "Primary languages across 8+ years. Used in production at Petco, TCS, and all three independent products.",
       },
       {
         name: "Node.js & Express",
         description:
-          "Crafting efficient and scalable backend services and APIs.",
-      },
-      {
-        name: "Python & Java",
-        description:
-          "Leveraging diverse backend technologies for various use cases.",
+          "Backend services and REST APIs across financial automation, gym management, and AI workflow platforms.",
       },
       {
         name: "Angular",
         description:
-          "Experience in maintaining and developing with the Angular framework.",
+          "Built custom Contact Control Panel for Petco's Amazon Connect agents. Led front-end architecture for enterprise contact center tooling.",
+      },
+      {
+        name: "Python",
+        description:
+          "Lambda functions for backend orchestration across Petco's contact center platform and financial data processing pipelines at OneIntegral.",
       },
     ],
   },
@@ -80,24 +81,29 @@ export const skillsData: SkillCategory[] = [
     icon: Cloud,
     skills: [
       {
-        name: "AWS",
+        name: "AWS Serverless",
         description:
-          "Deep expertise in Lambda, DynamoDB, S3, API Gateway, Connect, and QuickSight.",
+          "Production ownership of Lambda, DynamoDB, S3, SQS, SNS, Kinesis, Step Functions, and CloudFormation. 50+ Lambda services live at Petco.",
       },
       {
-        name: "Terraform",
+        name: "Amazon Connect",
         description:
-          "Managing infrastructure as code for reproducible and scalable environments.",
+          "Architected 100+ contact flows for voice and chat at Petco. Custom CCP, Lex integration, omnichannel routing, and SLA-based escalation.",
       },
       {
-        name: "Microservices",
+        name: "Terraform & IaC",
         description:
-          "Designing and implementing decoupled, independently deployable services.",
+          "Infrastructure as code across OneIntegral and Petco. Achieved 30% reduction in deployment time and 20% decrease in infrastructure costs.",
       },
       {
-        name: "Event-Driven Architectures",
+        name: "Event-Driven Architecture",
         description:
-          "Building resilient systems that react to events in real-time.",
+          "Designed resilient event-driven systems using SQS, Kinesis, Step Functions, and Lambda for financial automation and real-time contact center workflows.",
+      },
+      {
+        name: "CI/CD & Monitoring",
+        description:
+          "Managed controlled deployments via CI/CD pipelines. Delivered operational dashboards via QuickSight and Joulica achieving 99.95% uptime at Petco.",
       },
     ],
   },
@@ -106,19 +112,24 @@ export const skillsData: SkillCategory[] = [
     icon: Database,
     skills: [
       {
+        name: "DynamoDB",
+        description:
+          "Primary database across Petco serverless platform and OneIntegral financial automation systems. Optimized for high-volume, event-driven workloads.",
+      },
+      {
         name: "PostgreSQL & MySQL",
         description:
-          "Designing and managing relational database schemas for data integrity.",
+          "Used in Zetio for relational data modeling and in enterprise ERP systems at Global Software Solutions.",
       },
       {
         name: "MongoDB",
         description:
-          "Utilizing NoSQL for flexible data modeling and high-performance applications.",
+          "Used across OneIntegral's fixed asset reconciliation and lease accounting platforms for flexible financial data modeling.",
       },
       {
-        name: "DynamoDB",
+        name: "Neo4J",
         description:
-          "Leveraging AWS's managed NoSQL database for serverless applications.",
+          "Graph database experience from OneIntegral's financial automation suite for modeling complex partner and financial data relationships.",
       },
     ],
   },
@@ -127,24 +138,24 @@ export const skillsData: SkillCategory[] = [
     icon: BrainCircuit,
     skills: [
       {
-        name: "LLM Integration",
+        name: "AWS Bedrock & Claude LLM",
         description:
-          "Integrating large language models (like Gemini) to power application features.",
+          "Production AI integration at Petco. Implemented Claude LLM via Bedrock for IVR and chat intent handling and response generation supporting a ~$6B revenue business.",
       },
       {
-        name: "RAG",
+        name: "LLM Pipelines",
         description:
-          "Implementing Retrieval-Augmented Generation for context-aware AI responses.",
+          "Built prompt orchestration and structured output pipelines in PodOS for guest research, topic structuring, and podcast outline generation.",
       },
       {
-        name: "Embeddings",
+        name: "Amazon Lex",
         description:
-          "Using vector embeddings for semantic search and data analysis.",
+          "Deployed Lex for pre-agent chatbot handling in Petco's Amazon Connect Chat, reducing live agent workload across digital support channels.",
       },
       {
-        name: "Automation Pipelines",
+        name: "Intelligent Self-Service",
         description:
-          "Building AI-powered workflows to automate complex business processes.",
+          "Designed AI-powered IVR and chat self-service flows at Petco, reducing agent workload and increasing digital deflection at scale.",
       },
     ],
   },
